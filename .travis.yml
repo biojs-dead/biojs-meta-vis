@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- '0.10'
+deploy:
+  provider: s3
+  access_key_id: AKIAJ7SXC23CS2USONIA
+  secret_access_key:
+    secure: ghfAzxjfw5EdVgyUhHPw6rZKBCqSZGF3eyeDEzvOKVfetdAHcEx5VC082Wt5BrPgXN5AknWi6qc8dnpokSazPJUBKybNlbqF2ipjPht/EgNI7QC1mGPdxpxe9uK0IjuqZj+w80n4U79EWPPIFJLFhVm2QMtYkg/zPUYO+SZ7eEg=
+  bucket: biojs
+  upload-dir: vis/latest
+  acl: public-read
+  detect_encoding: true # allow compressed uploads
+  skip_cleanup: true
+  local-dir: build
+  on:
+      repo: biojs/biojs-meta-vis
