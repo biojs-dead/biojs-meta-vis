@@ -3,10 +3,12 @@ if (typeof biojs === 'undefined') {
 }
 
 if (typeof biojs === 'undefined') {
-  module.exports = biojs.io = {} //Creates namespace biojs.io
+  module.exports = biojs.vis  = {} //Creates namespace biojs.io
 }
 
-biojs.io.fasta = require('biojs-io-fasta')
-biojs.io.clustal = require('biojs-io-clustal')
-biojs.io.newick = require('biojs-io-newick')
-biojs.io.graduates = require('biojs-io-graduates')
+biojs.vis.msa = require('biojs-vis-msa')
+//biojs.vis.tree = require('biojs-vis-tree')
+biojs.vis.chromosome = require('biojs-vis-chromosome')
+//biojs.vis.tooltip = require('biojs-vis-tooltip')
+biojs.vis.sequence = require('biojs-vis-sequence')
+biojs.vis.easy_features = require('biojs-vis-easy_features')
