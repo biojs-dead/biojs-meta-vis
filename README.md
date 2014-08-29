@@ -1,10 +1,10 @@
 biojs-meta-vis
 -------------------
 
-[![Build Status](https://travis-ci.org/biojs/biojs-meta-vis.svg?branch=master)](https://travis-ci.org/biojs/biojs-meta-parser)
-[![NPM version](http://img.shields.io/npm/v/biojs-meta-vis.svg)](https://www.npmjs.org/package/biojs-meta-parser)
-[![Dependencies](https://david-dm.org/biojs/biojs-meta-vis.png)](https://david-dm.org/biojs/biojs-meta-parser)
-[![NPM downloads](http://img.shields.io/npm/dm/biojs-meta-vis.svg)](https://www.npmjs.org/package/biojs-meta-parser)
+[![Build Status](https://travis-ci.org/biojs/biojs-meta-vis.svg?branch=master)](https://travis-ci.org/biojs/biojs-meta-vis)
+[![NPM version](http://img.shields.io/npm/v/biojs-meta-vis.svg)](https://www.npmjs.org/package/biojs-meta-vis)
+[![Dependencies](https://david-dm.org/biojs/biojs-meta-vis.png)](https://david-dm.org/biojs/biojs-meta-vis)
+[![NPM downloads](http://img.shields.io/npm/dm/biojs-meta-vis.svg)](https://www.npmjs.org/package/biojs-meta-vis)
 
 
 Convenience CDN wrapper for all parser
