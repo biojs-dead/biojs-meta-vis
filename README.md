@@ -13,7 +13,7 @@ Convenience CDN wrapper for all parser
 <script src=//cdn.biojs-msa.org/vis/latest/vis.min.gz.js></script>
 ```
 
-__ warning__: this could develop to a very large file.
+__warning__: this could develop to a very large file.
 
 Yes you can either link to the minified, gzipped CDN version or download the dev version from S3 .
 
