@@ -17,7 +17,8 @@ __warning__: this could develop to a very large file.
 
 Yes you can either link to the minified, gzipped CDN version or download the dev version from S3 .
 
-[![Min version](http://img.shields.io/badge/prod-133kB-blue.svg)](https://cdn.biojs.net/vis/latest/vis.min.gz.js)  
+[![Min version](http://img.shields.io/badge/prod-133kB-blue.svg)](https://cdn.biojs.net/vis/latest/vis.min.gz.js)  ![supports SSL](http://img.shields.io/badge/SSL-yes-green.svg)
+
 [![Dev version](http://img.shields.io/badge/dev-latest-yellow.svg)](https://s3-eu-west-1.amazonaws.com/biojs/vis/latest/vis.js) 
 
 
