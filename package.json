@@ -14,7 +14,7 @@
   "dependencies": {
     "biojs-vis-chromosome": "0.0.1",
     "biojs-vis-easy_features": "0.0.3",
-    "biojs-vis-msa": "^0.1.3",
+    "biojs-vis-msa": "^0.2.6",
     "biojs-vis-sequence": "0.0.2"
   },
   "devDependencies": {
